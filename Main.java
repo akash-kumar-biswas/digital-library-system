@@ -10,7 +10,10 @@ class RealEBook implements Ebook{
         loadBook(bookName);
     }
     
-
+    String getSize(){
+        return "size";
+    }
+    
     public void loadBook(String bookName){
         System.out.println("Book loaded from disk: "+ bookName);
     }
