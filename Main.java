@@ -52,5 +52,6 @@ public class Main {
         ebook1.display(); 
 
         ebook2.display();
+        ebook2.display();
     }
 }
