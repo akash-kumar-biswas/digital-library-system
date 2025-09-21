@@ -9,6 +9,7 @@ class RealEBook implements Ebook{
         this.bookName = bookName;
         loadBook(bookName);
     }
+    
 
     public void loadBook(String bookName){
         System.out.println("Book loaded from disk: "+ bookName);
